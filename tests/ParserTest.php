@@ -14,6 +14,6 @@ final class ParserTest extends TestCase
 
         $config = Parser::parse($contents);
 
-        self::assertInstanceOf(Config::class, $config);
+        self::assertInstanceOf(Config::class, false);
     }
 }
